@@ -1,4 +1,5 @@
-import './App.css'; 
+import './App.css';
+import Checkout from './Checkout';
 import ProductList from './ProductList';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
@@ -11,7 +12,7 @@ function App() {
 
 		<Routes>
 			<Route path="/" element={<ProductList/>} />
-			{/* <Route path="/checkout" element={<Checkout/>} /> */}
+			<Route path="/checkout" element={<Checkout/>} />
 
 			{/* <Route path="/product" element={<ProductDetail/>}>
 				<Route path=":id" element={<ProductDetail/>} />
