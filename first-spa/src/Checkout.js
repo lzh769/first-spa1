@@ -1,6 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import QuantityBtn from './QuantityBtn'
+
 export default function Checkout() {
 
   let carItem=
@@ -69,8 +71,9 @@ export default function Checkout() {
                 {product.name} 
                 描述: {product.description}
                 價錢: {product.price}
-                購買數量：{product.quantity}
-             </div>
+                購買數量：{product.quantity}   
+                  <QuantityBtn></QuantityBtn></div>             
+             
 
            ))}
         </div>
