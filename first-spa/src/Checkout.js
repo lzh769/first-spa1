@@ -19,6 +19,13 @@ export default function Checkout() {
         "image": "orange.jpg", 
         "price":15 ,
         "description": "新鮮橙150克"
+        },
+        {
+        "id": 3 ,
+        "name": "西瓜", 
+        "image": "xigua.jpg", 
+        "price":15 ,
+        "description": "新西瓜50克"
         }
    ]
    }

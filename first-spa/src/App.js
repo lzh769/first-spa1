@@ -11,7 +11,7 @@ function App() {
 		<Link to="/checkout">購物車</Link>
 
 		<Routes>
-			<Route path="/" element={<ProductList/>} />
+			{/* <Route path="/" element={<ProductList/>} /> */}
 			<Route path="/checkout" element={<Checkout/>} />
 
 			{/* <Route path="/product" element={<ProductDetail/>}>
